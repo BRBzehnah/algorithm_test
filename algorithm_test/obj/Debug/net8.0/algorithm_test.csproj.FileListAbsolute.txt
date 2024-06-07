@@ -1,0 +1,14 @@
+C:\Code_while_i'm_studying\algorithm_test\bin\Debug\net8.0\algorithm_test.exe
+C:\Code_while_i'm_studying\algorithm_test\bin\Debug\net8.0\algorithm_test.deps.json
+C:\Code_while_i'm_studying\algorithm_test\bin\Debug\net8.0\algorithm_test.runtimeconfig.json
+C:\Code_while_i'm_studying\algorithm_test\bin\Debug\net8.0\algorithm_test.dll
+C:\Code_while_i'm_studying\algorithm_test\bin\Debug\net8.0\algorithm_test.pdb
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.AssemblyInfoInputs.cache
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.AssemblyInfo.cs
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.csproj.CoreCompileInputs.cache
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.dll
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\refint\algorithm_test.dll
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.pdb
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.genruntimeconfig.cache
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\ref\algorithm_test.dll
