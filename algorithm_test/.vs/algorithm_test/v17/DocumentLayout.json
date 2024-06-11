@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5497A08D-9428-4C49-913F-0BD00E594317}|algorithm_test.csproj|c:\\code_while_i\u0027m_studying\\algorithm_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5497A08D-9428-4C49-913F-0BD00E594317}|algorithm_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5497A08D-9428-4C49-913F-0BD00E594317}|algorithm_test.csproj|c:\\code_while_i\u0027m_studying\\algorithm_test\\algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5497A08D-9428-4C49-913F-0BD00E594317}|algorithm_test.csproj|solutionrelative:algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Algorithm.cs",
+              "DocumentMoniker": "C:\\Code_while_i\u0027m_studying\\algorithm_test\\Algorithm.cs",
+              "RelativeDocumentMoniker": "Algorithm.cs",
+              "ToolTip": "C:\\Code_while_i\u0027m_studying\\algorithm_test\\Algorithm.cs",
+              "RelativeToolTip": "Algorithm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:36:42.529Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,14 +41,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Code_while_i\u0027m_studying\\algorithm_test\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T12:03:21.035Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

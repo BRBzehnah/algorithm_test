@@ -12,3 +12,4 @@ C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\refint\algorithm_test
 C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.pdb
 C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.genruntimeconfig.cache
 C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\ref\algorithm_test.dll
+C:\Code_while_i'm_studying\algorithm_test\obj\Debug\net8.0\algorithm_test.sourcelink.json
