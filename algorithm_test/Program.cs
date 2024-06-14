@@ -1,17 +1,14 @@
 ﻿using System.Collections.Concurrent;
+using System.Diagnostics;
 
 namespace algorithm_test
 {
     internal class Program
-
     {
         static void Main(string[] args)
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                Algorithm.QuadThread(25, '+');
-                Console.WriteLine();
-            }
+        {                   
+            Test.Linear(10);
+            Console.WriteLine();
         }
     }
 }

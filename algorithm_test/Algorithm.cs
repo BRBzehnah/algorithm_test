@@ -44,7 +44,7 @@ namespace algorithm_test
             return secondOperand;
         }
         
-        static int DoubleThreadSearch(int answer, int searchingIndex)
+        static int BinarySearch(int answer, int searchingIndex)
         {
             int firstThread = answer / 2;
             int secondThread = firstThread;
@@ -60,7 +60,7 @@ namespace algorithm_test
                 return secondThread;
         }
 
-        static int QuadThreadSearch(int answer, int searchingIndex)
+        static int DevideAndConquerSeacrh(int answer, int searchingIndex)
         {
             int firstThread = 0;
             int secondThread = answer / 4;
@@ -87,14 +87,13 @@ namespace algorithm_test
 
         static public void Linear(int answer, char exprOperator)
         {
-            Random random = new Random();
             int firstOperand = new();
             int secondOperand = new();
             int searchingIndex = new();
             switch (exprOperator)
             {
                 case '+':
-                    firstOperand = random.Next(answer);
+                    firstOperand = new Random().Next(answer);
                     searchingIndex = answer - firstOperand;
                         while (secondOperand != searchingIndex)
                     {
@@ -103,7 +102,7 @@ namespace algorithm_test
                         ShowMessage(firstOperand, secondOperand, answer, exprOperator);
                     break;
                 case '-':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                     searchingIndex = (firstOperand - answer);
                         while (secondOperand != searchingIndex)
                     {
@@ -112,7 +111,7 @@ namespace algorithm_test
                         ShowMessage(firstOperand, secondOperand, answer, exprOperator);
                     break;
                 case '*':
-                    firstOperand = random.Next(1, answer);
+                    firstOperand = new Random().Next(1, answer);
                     searchingIndex = answer / firstOperand;
                         while (secondOperand != searchingIndex)
                     {
@@ -126,7 +125,7 @@ namespace algorithm_test
                         ShowMessage(firstOperand, secondOperand, answer, exprOperator);
                     break;
                 case '/':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                         if (answer == 0)
                             ShowErrorMesage(firstOperand, answer);
                         while (secondOperand != (firstOperand / answer))
@@ -151,29 +150,28 @@ namespace algorithm_test
 
         static public void Jump(int answer, char exprOperator)
         {
-            Random random = new Random();
             int firstOperand = new();
             int secondOperand = new();
             int searchingIndex = new();
             switch (exprOperator)
             {
                 case '+':
-                    firstOperand = random.Next(answer);
+                    firstOperand = new Random().Next(answer);
                     searchingIndex = answer - firstOperand;
                         ShowMessage(firstOperand, JumpSearch(firstOperand, secondOperand, searchingIndex), answer, exprOperator);
                     break;
                 case '-':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                     searchingIndex = firstOperand - answer;
                         ShowMessage(firstOperand, JumpSearch(firstOperand, secondOperand, searchingIndex), answer, exprOperator);
                     break;
                 case '*':
-                    firstOperand = random.Next(1, answer);
+                    firstOperand = new Random().Next(1, answer);
                     searchingIndex = answer / firstOperand;
                         ShowMessage(firstOperand, JumpSearch(firstOperand, secondOperand, searchingIndex), answer, exprOperator);
                     break;
                 case '/':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                     if (firstOperand == 0)
                         firstOperand = 1;
                         ShowMessage(firstOperand, JumpSearch(firstOperand, secondOperand, searchingIndex), answer, exprOperator);
@@ -185,34 +183,33 @@ namespace algorithm_test
             }
         }
 
-        static public void DoubleThread(int answer, char exprOperator)
+        static public void BinarySearch(int answer, char exprOperator)
         {          
-            Random random = new Random();
             int firstOperand = new();
             int searchingIndex = new();
                 switch (exprOperator)
                 {
                     case '+':
-                        firstOperand = random.Next(answer);
+                        firstOperand = new Random().Next(answer);
                         searchingIndex = answer - firstOperand;                   
-                            ShowMessage(firstOperand, DoubleThreadSearch(answer, searchingIndex), answer, exprOperator);
+                            ShowMessage(firstOperand, BinarySearch(answer, searchingIndex), answer, exprOperator);
                         break;
                     case '-':
-                        firstOperand = random.Next(answer, answer + 100);
+                        firstOperand = new Random().Next(answer, answer + answer);
                         searchingIndex = (firstOperand - answer);
-                            ShowMessage(firstOperand, DoubleThreadSearch(answer, searchingIndex), answer, exprOperator);
+                            ShowMessage(firstOperand, BinarySearch(answer, searchingIndex), answer, exprOperator);
                         break;
                     case '*':
-                        firstOperand = random.Next(1, answer);
+                        firstOperand = new Random().Next(1, answer);
                         searchingIndex = answer / firstOperand;
-                            ShowMessage(firstOperand, DoubleThreadSearch(answer, searchingIndex), answer, exprOperator);
+                            ShowMessage(firstOperand, BinarySearch(answer, searchingIndex), answer, exprOperator);
                         break;
                     case '/':
-                        firstOperand = random.Next(answer, answer + 100);
+                        firstOperand = new Random().Next(answer, answer + answer);
                         if (answer == 0)
                             ShowErrorMesage(firstOperand, answer);
 
-                            ShowMessage(firstOperand, DoubleThreadSearch(answer, searchingIndex), answer, exprOperator);
+                            ShowMessage(firstOperand, BinarySearch(answer, searchingIndex), answer, exprOperator);
                         break;
                     default:
                         Console.WriteLine("wrong value");
@@ -221,34 +218,33 @@ namespace algorithm_test
                 }
         }
 
-        static public void QuadThread(int answer, char exprOperator)
+        static public void DevideAndConquer(int answer, char exprOperator)
         {
-            Random random = new Random();
             int firstOperand = new();
             int searchingIndex = new();
             switch (exprOperator)
             {
                 case '+':
-                    firstOperand = random.Next(answer);
+                    firstOperand = new Random().Next(answer);
                     searchingIndex = answer - firstOperand;
-                    ShowMessage(firstOperand, QuadThreadSearch(answer, searchingIndex), answer, exprOperator);
+                    ShowMessage(firstOperand, DevideAndConquerSeacrh(answer, searchingIndex), answer, exprOperator);
                     break;
                 case '-':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                     searchingIndex = (firstOperand - answer);
-                    ShowMessage(firstOperand, QuadThreadSearch(answer, searchingIndex), answer, exprOperator);
+                    ShowMessage(firstOperand, DevideAndConquerSeacrh(answer, searchingIndex), answer, exprOperator);
                     break;
                 case '*':
-                    firstOperand = random.Next(1, answer);
+                    firstOperand = new Random().Next(1, answer);
                     searchingIndex = answer / firstOperand;
-                    ShowMessage(firstOperand, QuadThreadSearch(answer, searchingIndex), answer, exprOperator);
+                    ShowMessage(firstOperand, DevideAndConquerSeacrh(answer, searchingIndex), answer, exprOperator);
                     break;
                 case '/':
-                    firstOperand = random.Next(answer, answer + 100);
+                    firstOperand = new Random().Next(answer, answer + answer);
                     if (answer == 0)
                         ShowErrorMesage(firstOperand, answer);
 
-                    ShowMessage(firstOperand, QuadThreadSearch(answer, searchingIndex), answer, exprOperator);
+                    ShowMessage(firstOperand, DevideAndConquerSeacrh(answer, searchingIndex), answer, exprOperator);
                     break;
                 default:
                     Console.WriteLine("wrong value");
